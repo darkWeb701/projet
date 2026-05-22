@@ -11,7 +11,7 @@ $page_title = "Accueil - Hoodix";
 <!-- Section Héro (image d'accueil) -->
 <section class="hero">
     <div class="hero-content">
-        <h1>Nouvelle Collection Hiver 2025</h1>
+        <h1>Nouvelle Collection Hiver 2026</h1>
         <p>Découvrez nos hoodies uniques alliant confort et style urbain.</p>
         <a href="products.php" class="btn">Shop Now</a>
     </div>
@@ -23,22 +23,22 @@ $page_title = "Accueil - Hoodix";
     <div class="products-grid">
         <!-- Exemple de produits (à remplacer par une boucle PHP plus tard) -->
         <div class="product-card">
-            <img src="/assets/images/hoodie1.png" alt="Hoodie blanc">
-            <h3>Hoodie blanc</h3>
-            <p class="price">2500DA</p>
-            <a href="product.php?id=1" class="btn-small">Voir le produit</a>
-        </div>
-        <div class="product-card">
-            <img src="/assets/images/hoodie2.png" alt="Hoodie gris">
-            <h3>Hoodie gris</h3>
-            <p class="price">2000DA</p>
+            <img src="/assets/images/hod16.png" alt="Hoodie blanc">
+            <h3>Hoodie Soft Girl</h3>
+            <p class="price">2600DA</p>
             <a href="product.php?id=2" class="btn-small">Voir le produit</a>
         </div>
         <div class="product-card">
-            <img src="/assets/images/hoodie3.png" alt="Hoodie noir">
-            <h3>Hoodie noir</h3>
-            <p class="price">3000DA</p>
-            <a href="product.php?id=3" class="btn-small">Voir le produit</a>
+            <img src="/assets/images/hod10.png" alt="Hoodie gris">
+            <h3>Hoodie Balenciaga Signature</h3>
+            <p class="price">6200DA</p>
+            <a href="product.php?id=8" class="btn-small">Voir le produit</a>
+        </div>
+        <div class="product-card">
+            <img src="/assets/images/hod9.png" alt="Hoodie noir">
+            <h3>Hoodie Brooklyn Style</h3>
+            <p class="price">3400DA</p>
+            <a href="product.php?id=9" class="btn-small">Voir le produit</a>
         </div>
     </div>
 </section>
