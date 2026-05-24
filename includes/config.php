@@ -7,10 +7,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // DB CONFIG
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'hoodix');
+define('DB_HOST', 'mysql.railway.internal');
+define('DB_NAME', 'railway');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', 'cdQnlSPHTxFpXHNrTtgiDYeBgUBLQTan');
 
 // CONNEXION PDO
 try {
