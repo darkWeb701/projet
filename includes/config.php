@@ -7,10 +7,11 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // DB CONFIG
-define('DB_HOST', 'mysql.railway.internal');
-define('DB_NAME', 'railway');
-define('DB_USER', 'root');
-define('DB_PASS', 'cdQnlSPHTxFpXHNrTtgiDYeBgUBLQTan');
+define('DB_HOST', $_ENV['MYSQLHOST'] ?? getenv('MYSQLHOST') ?? 'localhost');
+define('DB_NAME', $_ENV['MYSQLDATABASE'] ?? getenv('MYSQLDATABASE') ?? 'railway');
+define('DB_USER', $_ENV['MYSQLUSER'] ?? getenv('MYSQLUSER') ?? 'root');
+define('DB_PASS', $_ENV['MYSQLPASSWORD'] ?? getenv('MYSQLPASSWORD') ?? '');
+define('DB_PORT', (int)($_ENV['MYSQLPORT'] ?? getenv('MYSQLPORT') ?? 3306));
 
 // CONNEXION PDO
 try {
